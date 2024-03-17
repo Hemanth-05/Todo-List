@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #FAF6F0;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+h1{
+    font-family: Georgia;
+    font-size: 4em;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.main{
+    width: 60%;
+}
+
+.todoList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+}
+
+.todoElementDiv{
+    display: flex;
+    /* height: 52.5px; */
+}
+
+.check-box{
+    margin: 5px;
+    width: 20px;
+}
+
+
+.todoElement{
+    width: 100%;
+    padding: 5px;
+    background-color: #FAF6F0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: verdana;
+    font-size: 1em;
+    color: #393E46;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.strikethrough{
+    text-decoration: line-through;
+}
+
+.todoElement:focus{
+    outline: none;
+}
